@@ -1,0 +1,112 @@
+:root {
+  --color1: #1877f2;
+  --color2: #36a420;
+  --color3: #fff;
+  --color4: #1c1e21;
+}
+
+body {
+  background: var(--color3);
+  color: var(--color4);
+  direction: ltr;
+  line-height: 1.34;
+  margin: 0;
+  padding: 0;
+  unicode-bidi: embed;
+}
+.container-fluid {
+  margin: 0;
+  padding: 0;
+}
+.main {
+  padding-bottom: 112px;
+  padding-top: 72px;
+}
+.content {
+  margin: 0 auto;
+  padding: 20px 0;
+  position: relative;
+  width: 980px;
+}
+.header {
+  padding: 112px 0 16px;
+}
+.logo {
+  height: 106px;
+  margin: -28px;
+}
+.subhead {
+  font-size: 26px;
+}
+.rightbox {
+  height: 456px;
+  width: 396px;
+}
+.formWrapper {
+  padding-bottom: 24px;
+  padding-top: 10px;
+  background-color: #fff;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+}
+.area {
+  font-size: 17px;
+  padding: 14px 16px;
+  width: 364px;
+}
+input {
+  font-size: 17px;
+  padding: 14px 16px;
+  width: 330px;
+  border: 1px solid #dddfe2;
+  border-radius: 6px;
+}
+.login-btn {
+  padding-top: 6px;
+}
+.btn-primary {
+  background-color: var(--color1);
+  border: none;
+  border-radius: 6px;
+  font-size: 20px;
+  line-height: 48px;
+  padding: 0 16px;
+  width: 332px;
+  margin-left: 19px;
+}
+.forgotPass {
+  margin-top: 16px;
+  margin-left: 110px;
+}
+a {
+  color: var(--color1);
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+}
+hr {
+  width: 90%;
+  margin-left: 15px;
+}
+.newacc-btn {
+  padding-top: 6px;
+}
+.btn-success {
+  background-color: var(--color2);
+  padding: 6px 40px;
+  font-size: 20px;
+  margin-left: 55px;
+  border: none;
+}
+.foot {
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.formfoot {
+  text-decoration: none;
+  color: #1c1e21;
+}
